@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Exam Survey</h1>
+      <br>
+      <h3>I hope you have a wonderful time grading this exam! Please fill out the following information before you continue.</h3>
+    </header>
+    <br>
+    <br>
+    <form>
+      <h2>General Information</h2>
+      <br>
+      <label>
+        Name:
+        <input type="text" class="input">
+      </label>
+      <br>
+      <label>
+        Name of Student:
+        <input type="text" class="input">
+      </label>
+      <br>
+      <label>
+        Role:
+        <select class="input">
+          <option>----------</option>
+          <option>Teacher</option>
+          <option>Student TA</option>
+        </select>
+      </label>
+      <br>
+      <br>
+      <h2>Review</h2>
+      <p>
+        How would you rate this students work on a scale of one to five?
+      </p>
+      <br>
+      <label>1 (very poor)</label>
+      <input type="radio" name="rating" class="input">
+      <br>
+      <label>2 (poor)</label>
+      <input type="radio" name="rating" class="input">
+      <br>
+      <label>3 (decent)</label>
+      <input type="radio" name="rating" class="input">
+      <br>
+      <label>4 (good)</label>
+      <input type="radio" name="rating" class="input">
+      <br>
+      <label>5 (very good)</label>
+      <input type="radio" name="rating" class="input">
+      <br>
+      <p>Which of these classroom requirements did the student meet? (select all that apply)</p>
+      <label>Student was paying attention and engaged during lessons. </label>
+      <input type="checkbox">
+      <label>Student stayed on task during assignments. </label>
+      <input type="checkbox" class="input">
+      <label>Student did not disrupt others while working. </label>
+      <input type="checkbox" class="input">
+      <label>Student arrived to class each day with all necessary supplies. </label>
+      <input type="checkbox" class="input">
+      <br>
+      <label>Do you have any other comments or criticisms not listed above?</label>
+      <br>
+      <textarea name="address" cols="30" rows="10" class="input"></textarea>
+      <br>
+      <br>
+      <button type="submit">Submit</button>
+      <button type="reset">Cancel</button>
+    </form>
+  </body>
+
+</html>
